@@ -33,28 +33,10 @@ img{
 }
 
 /* Next & previous buttons */
-.prev {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  left: 100%;
-  right: 0% ;     
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  left: 0%;      
   width: auto;
   margin-top: -22px;
   padding: 16px;
